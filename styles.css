@@ -1,0 +1,126 @@
+/* General setup */
+
+* {
+    box-sizing: border-box;
+    
+  }a
+  
+  body {
+    margin: 0 auto;
+  
+    max-width: 1400px;
+    min-width: 1000px;
+    line-height: 10px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    font-size: 10px;
+    font-family: sans-serif;
+  }
+  
+    h1 {
+      font-family:sans-serif;
+      border: 10px;
+      word-spacing:2px;
+      padding: 5px;
+      letter-spacing: 1px;
+      font-size: 3.5rem;
+    text-align: center;
+    }
+    h2 {
+      width: auto;
+      font-size: 20px;
+    }
+    h2 + p {
+      text-indent: 20px;
+    }
+    a {
+      outline: none;
+      /* focus outline: none; */
+    }
+    
+    a:active {
+      background-color: aqua;
+      color: rgb(255, 0, 13);
+    }
+    
+  a[href^="https"]::after {
+    content: "";
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    margin-left: 0.25em;
+    vertical-align: text-bottom;
+  
+    background-size: 100%;
+    background-image: url("https://img.icons8.com/?size=100&id=82787&format=png&color=000000");
+  }
+    
+    
+    
+    a:link,
+    a:visited,
+    a:focus,
+    a:hover {
+      color: #a66;
+    }
+    
+    a:hover,
+    a:focus {
+      text-decoration: none;
+    }
+  /* Layout */
+  ul{list-style-type: square;}
+  ol{list-style-type: lower-alpha;}
+  section {
+    float: left;
+    width: 50%;
+  }
+  
+  aside {
+    float: left;
+    width: 30%;
+  }
+  
+  nav {
+    float: left;
+    width: 20%;
+  }
+  nav ul li a
+  {list-style-type:none;
+    border-radius: 2px ;
+      border-style:solid;
+      font-size: larger;
+      text-align: center;
+      border-color: #a66;
+      padding: 10px;
+      display: block;
+      border-spacing: 5px;
+      margin-bottom:10px;
+    text-decoration: none;}  
+  
+    nav ul li 
+    {list-style-type:none;}
+  
+  
+  footer {
+    clear: both;
+  }
+  
+  header,
+  section,
+  aside,
+  nav,
+  footer {
+    padding: 20px;
+  }
+  
+  /* header and footer */
+  
+  header,
+  footer {
+    border-top: 5px solid #a66;
+    border-bottom: 5px solid #a66;
+  }
+  
+  /* WRITE YOUR CODE BELOW HERE */
+  
